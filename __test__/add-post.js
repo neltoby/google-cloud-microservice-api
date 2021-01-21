@@ -1,0 +1,1 @@
+exports.add_post = async (res) => res;

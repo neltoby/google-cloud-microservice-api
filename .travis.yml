@@ -1,0 +1,15 @@
+language: node_js
+node_js:
+  - 14
+before_install:
+  - "curl -sL firebase.tools | bash"
+  - "npm install jest-cli --global"
+install:
+  - "npm install"
+script:
+  - firebase emulators:exec --only firestore "npm test"
+cache:
+  npm: true
+  directories:
+  - /home/travis/.cache/firebase/emulators
+  

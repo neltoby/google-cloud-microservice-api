@@ -1,0 +1,36 @@
+{
+  "name": "cloud-post-api",
+  "version": "1.0.0",
+  "description": "A clean architecture cloud api",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watchAll --env=node --detectOpenHandles"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github/neltoby"
+  },
+  "keywords": [
+    "nodeJs",
+    "javascript",
+    "api",
+    "serverless"
+  ],
+  "author": "neltoby",
+  "license": "ISC",
+  "dependencies": {
+    "@firebase/rules-unit-testing": "^1.1.7",
+    "dotenv": "^8.2.0",
+    "email-validator": "^2.0.4",
+    "esm": "^3.2.25",
+    "faker": "^5.1.0",
+    "firebase-admin": "^9.4.2",
+    "is-ip": "^3.1.0",
+    "nnode": "^0.3.3",
+    "sanitize-html": "^2.3.0"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3",
+    "nodemon": "^2.0.6"
+  }
+}
